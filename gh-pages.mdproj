@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ItemType>GenericProject</ItemType>
+    <ProjectGuid>{1675DA1E-1407-4F23-A5F6-A534C9334478}</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Default|AnyCPU' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="objects\" />
+    <Folder Include="objects\humans\" />
+    <Folder Include="objects\companies\" />
+    <Folder Include="objects\software\" />
+    <Folder Include="objects\hardware\" />
+    <Folder Include="objects\locations\" />
+    <Folder Include="objects\websites\" />
+    <Folder Include="objects\documents\" />
+    <Folder Include="blobs\" />
+    <Folder Include="blobs\images\" />
+    <Folder Include="blobs\office_files\" />
+    <Folder Include="blobs\propiertary_formats\" />
+    <Folder Include="topics\" />
+    <Folder Include="topics\personal_data\" />
+    <Folder Include="objects\licenses\" />
+    <Folder Include="topics\types_of_activity\" />
+    <Folder Include="objects\companies\fstec\" />
+    <Folder Include="objects\companies\altlinux\" />
+    <Folder Include="blobs\office_files\opensource_licenses_analysis\" />
+    <Folder Include="objects\documents\2007-10-18\" />
+    <Folder Include="objects\documents\2010-12-17\" />
+    <Folder Include="topics\education\" />
+    <Folder Include="topics\world-wide-trend\" />
+    <Folder Include="objects\companies\moscow_region_government\" />
+    <Folder Include="objects\companies\education_agency\" />
+    <Folder Include="objects\humans\ilya.massuh\" />
+    <Folder Include="objects\humans\vladimir.putin\" />
+    <Folder Include="objects\companies\postal_service\" />
+    <Folder Include="objects\websites\gosuslugi.ru\" />
+    <Folder Include="objects\websites\pgu.mos.ru\" />
+    <Folder Include="objects\companies\communications_agency\" />
+    <Folder Include="objects\companies\duma\" />
+    <Folder Include="objects\companies\government\" />
+    <Folder Include="objects\documents\2014-04-15\" />
+    <Folder Include="objects\documents\2010-10-20\" />
+    <Folder Include="objects\companies\cnews\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="topics\types_of_activity\index.htm" />
+    <None Include="objects\documents\index.htm" />
+    <None Include="objects\companies\fstec\index.htm" />
+    <None Include="objects\companies\altlinux\index.htm" />
+    <None Include="blobs\office_files\opensource_licenses_analysis\index.htm" />
+    <None Include="objects\documents\2007-10-18\index.htm" />
+    <None Include="objects\documents\2010-12-17\index.htm" />
+    <None Include="topics\education\index.htm" />
+    <None Include="objects\hardware\index.htm" />
+    <None Include="topics\world-wide-trend\index.htm" />
+    <None Include="objects\documents\moscow_education.htm" />
+    <None Include="objects\companies\moscow_region_government\index.htm" />
+    <None Include="objects\companies\education_agency\index.htm" />
+    <None Include="objects\companies\postal_service\index.htm" />
+    <None Include="objects\websites\gosuslugi.ru\index.htm" />
+    <None Include="objects\companies\communications_agency\index.htm" />
+    <None Include="objects\companies\duma\index.htm" />
+    <None Include="objects\companies\government\index.htm" />
+    <None Include="objects\documents\2014-04-15\index.htm" />
+    <None Include="objects\companies\cnews\index.htm" />
+    <None Include="topics\personal_data\index.htm" />
+  </ItemGroup>
+</Project>
